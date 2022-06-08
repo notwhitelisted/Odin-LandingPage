@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    padding: 30px 10%;
+    background-color: #1f2937;
+    color: #F9FAF8;
+}
+
+.brand {
+    margin-right: auto;
+}
+
+.onefifth {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 50px;
+}
+
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+li, a, button {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.nav_links {
+    color: grey;
+    margin: 25px;
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    color: #eee;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_links li a:hover {
+    color: pink;
+}
+
+.bmw {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-right: 50px;
+    flex-basis: 400px;
+}
+
+.smalltext {
+    margin-left: 2%;
+}
+
+.signing a {
+    align-items: right;
+    display: flex;
+    text-decoration: none;
+    text-decoration-style: none;
+}
+
+.signing {
+    background-color: #0099ff;
+    color: white;
+    border-radius: 50px;
+    padding: 5px 17px;
+}
+
+.logo {
+    width: 3%;
+    padding-right: 800px;
+    height: auto;
+}
+
+.twofifth {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    color: #1f2937;
+    margin: 36px;
+    align-items: center;
+}
+
+.content-info {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.content-info img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 4px solid #3882F6;
+    border-radius: 15px;
+    margin: 5px 20px 0px 20px;
+}
+
+.content-info p {
+    align-items: center;
+    padding-left: 106px;
+}
+
+.info-pic {
+    border-color: blue;
+    display: flex;
+    align-items: baseline;
+    justify-content: baseline;
+    width: 15%;
+    height: auto;
+}
+
+.threefifth {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 200px;
+}
+
+.fourfifth {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0099ff;
+}
+
+.register {
+    color: #eee;
+    background-color: #0099ff;
+    padding: 50px;
+}
+
+
+.sign-up {
+    color: #eee;
+    background-color: #0099ff;
+    border-radius: 50px;
+    border-color: white;
+}
+
+.fifthfifth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+}
+
+.footer {
+    color: #eee;
+    margin: auto;
+    padding: 25px;
+}
